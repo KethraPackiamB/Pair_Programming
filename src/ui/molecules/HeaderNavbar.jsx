@@ -18,8 +18,7 @@ export const HeaderNavbar = () => {
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
+            navbarScroll>
             <div style={{fontSize:"10px"}}>
             <Nav.Link href="#action1">Domain Names</Nav.Link>
             <Nav.Link href="#action2">Websites&Hosting</Nav.Link>
