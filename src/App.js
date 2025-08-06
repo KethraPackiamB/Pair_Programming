@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { HeaderNavbar } from './ui/molecules/HeaderNavbar';
+
 import { SearchBox } from './ui/atoms/SearchBox';
 import { SearchButton } from './ui/atoms/SearchButton';
 import { BoldTinyText } from './ui/atoms/BoldTinyText';
 import { BannerContent } from './ui/molecules/BannerContent';
 import { SideBanner } from './ui/molecules/SideBanner';
+import { HeaderPage } from './modules/HeaderPage';
+import { ImageBanner } from './ui/molecules/ImageBanner';
 
 
 function App() {
@@ -16,7 +18,10 @@ function App() {
       {/* <SearchButton/> */}
       {/* <BoldTinyText/> */}
       {/* <BannerContent/> */}
-      <SideBanner/>
+      {/* <SideBanner/> */}
+      <HeaderPage/>
+      {/* <ImageBanner/> */}
+      
     
     </div>
   );
