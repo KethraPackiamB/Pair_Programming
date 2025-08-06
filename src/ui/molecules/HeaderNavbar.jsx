@@ -1,10 +1,14 @@
-import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import Dropdown from 'react-bootstrap/Dropdown';
+import SplitButton from 'react-bootstrap/SplitButton';
+import { SearchBox } from '../atoms/SearchBox';
+import {Row,Col} from 'react-bootstrap';
+import { SmallDetailValues } from '../atoms/SmallDetailValues';
+import { SmallBadges } from './SmallBadges';
+import { SearchButton } from '../atoms/SearchButton';
 
 export const HeaderNavbar = () => {
 
@@ -12,34 +16,42 @@ export const HeaderNavbar = () => {
         <div>
             <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#">Go Daddy</Navbar.Brand>
+        <Navbar.Brand href="#"><h2>Go Daddy</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
-            navbarScroll>
-            <div style={{fontSize:"10px"}}>
+            navbarScroll
+          >
+          
             <Nav.Link href="#action1">Domain Names</Nav.Link>
             <Nav.Link href="#action2">Websites&Hosting</Nav.Link>
             <Nav.Link href="#action2">Commerce</Nav.Link>
             <Nav.Link href="#action2">Email&Marketing</Nav.Link>
             <Nav.Link href="#action2">Expert Services</Nav.Link>
             <Nav.Link href="#action2">More</Nav.Link>
-            </div>
+            
            
           </Nav>
-          <Nav className="d-flex">
-             <NavDropdown title="Shop" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Rings</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Necklaces</NavDropdown.Item>
-              <NavDropdown.Item href="#action5">Earrings</NavDropdown.Item>
-              <NavDropdown.Item href="#action6">Bracelets</NavDropdown.Item>
-             <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-               More Collections
-              </NavDropdown.Item>
-            </NavDropdown>
+          <Nav >
+             <div className="mt-2">
+        <SplitButton
+          align={{ lg: 'start' }}
+          title="Sign In"
+          id="dropdown-menu-align-responsive-2"
+          size="sm"
+          variant="secondary"
+        >
+          <Dropdown.Item eventKey="1">Sign In</Dropdown.Item>
+            <Dropdown.Item eventKey="2">Create an account</Dropdown.Item>
+            
+            <Dropdown.Divider />
+            <Dropdown.Item eventKey="3">Sign in to office Email</Dropdown.Item>
+            <Dropdown.Item eventKey="4">Sign in to GoDaddy Webmail</Dropdown.Item>
+        </SplitButton>
+      </div>
+         
 
             <Nav.Link href="#action2">Help Center</Nav.Link>
              <Nav.Link href="#action2"> </Nav.Link>
@@ -48,6 +60,17 @@ export const HeaderNavbar = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+    <Container>
+    <Row>
+      <Col sm={8}>
+      <SearchButton/>
+      </Col>
+      <Col sm={4}>
+      <SmallBadges/>
+      </Col>
+    </Row>
+    </Container>
         </div>
     )
 }
