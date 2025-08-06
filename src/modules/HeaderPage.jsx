@@ -4,6 +4,7 @@ import { SmallBadges } from "../ui/molecules/SmallBadges";
 import {Row,Col,Container} from 'react-bootstrap';
 import { ImageBanner } from "../ui/molecules/ImageBanner";
 import { SideBanner } from "../ui/molecules/SideBanner";
+import { InformationTable } from "../ui/molecules/InformationTable";
 
 export const HeaderPage = () => {
 
@@ -29,6 +30,7 @@ export const HeaderPage = () => {
                         <SideBanner/>
                     </Col>
                 </Row>
+            <InformationTable/>
             </Container>
         </div>
     )

@@ -10,6 +10,7 @@ export const ImageBanner = () => {
             backgroundSize: 'cover',
             height:"60vh",
             width: "100%",
+            borderRadius: "3px",
 
         }}>
             <div className="container p-5 " >

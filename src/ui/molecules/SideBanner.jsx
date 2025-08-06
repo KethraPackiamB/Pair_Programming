@@ -4,8 +4,6 @@ import { TinyText } from "../atoms/TinyText";
 import { BlackButton } from "../atoms/BlackButton";
 import { BoldTinyText } from "../atoms/BoldTinyText";
 
-
-
 export const SideBanner = () => {
 
     return(
@@ -13,7 +11,8 @@ export const SideBanner = () => {
             <div style={{
                 background:"#D8EFEF",
                 maxWidth:"100%",
-                padding:"50px",
+                padding:"51px",
+                borderRadius: "3px",
                 }}>
             <BoldTinyText text="Domain Names"/>
             <HeadingTwo text="Grab a .com for just"/>

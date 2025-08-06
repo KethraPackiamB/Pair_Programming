@@ -8,6 +8,8 @@ import { BannerContent } from './ui/molecules/BannerContent';
 import { SideBanner } from './ui/molecules/SideBanner';
 import { HeaderPage } from './modules/HeaderPage';
 import { ImageBanner } from './ui/molecules/ImageBanner';
+import { InformationTable } from './ui/molecules/InformationTable';
+import { SignUpBlackTheme } from './ui/atoms/SignUpBlackTheme';
 
 
 function App() {
@@ -19,9 +21,10 @@ function App() {
       {/* <BoldTinyText/> */}
       {/* <BannerContent/> */}
       {/* <SideBanner/> */}
-      <HeaderPage/>
+      {/* <HeaderPage/> */}
       {/* <ImageBanner/> */}
-      
+      {/* <InformationTable/> */}
+      <SignUpBlackTheme/>
     
     </div>
   );
