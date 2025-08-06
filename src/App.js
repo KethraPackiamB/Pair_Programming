@@ -7,6 +7,9 @@ import { BodyPageImages } from './ui/molecules/BodyPageImages';
 import { BoldTinyText } from './ui/atoms/BoldTinyText';
 import { BannerContent } from './ui/molecules/BannerContent';
 import { SideBanner } from './ui/molecules/SideBanner';
+import { SellImageContent } from './ui/molecules/sellImageContent';
+import { SuccessImageContent } from './ui/molecules/SuccessImageContent';
+import { SaveImageContent } from './ui/molecules/SaveImageContent';
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
       {/* <SearchButton/> */}
 
       <BodyPageImages/>
+      <SellImageContent/>
+      <SuccessImageContent/>
+      <SaveImageContent/>
 
       {/* <BoldTinyText/> */}
       {/* <BannerContent/> */}
