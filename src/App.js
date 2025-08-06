@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { HeaderNavbar } from './ui/molecules/HeaderNavbar';
+
 import { SearchBox } from './ui/atoms/SearchBox';
 import { SearchButton } from './ui/atoms/SearchButton';
 import { BodyPageImages } from './ui/molecules/BodyPageImages';
@@ -10,6 +10,9 @@ import { SideBanner } from './ui/molecules/SideBanner';
 import { SellImageContent } from './ui/molecules/sellImageContent';
 import { SuccessImageContent } from './ui/molecules/SuccessImageContent';
 import { SaveImageContent } from './ui/molecules/SaveImageContent';
+import { HeaderPage } from './modules/HeaderPage';
+import { ImageBanner } from './ui/molecules/ImageBanner';
+
 
 
 function App() {
@@ -27,6 +30,12 @@ function App() {
       {/* <BoldTinyText/> */}
       {/* <BannerContent/> */}
       {/* <SideBanner/> */}
+
+
+
+      <HeaderPage/>
+      {/* <ImageBanner/> */}
+      
 
     
     </div>

@@ -3,7 +3,7 @@ import { HeadingTwo } from "../atoms/HeadingTwo";
 import { TinyText } from "../atoms/TinyText";
 import { BlackButton } from "../atoms/BlackButton";
 import { BoldTinyText } from "../atoms/BoldTinyText";
-import { BannerContent } from "../molecules/BannerContent";
+
 
 
 export const SideBanner = () => {
@@ -12,7 +12,7 @@ export const SideBanner = () => {
         <div>
             <div style={{
                 background:"#D8EFEF",
-                maxWidth:"28%",
+                maxWidth:"100%",
                 padding:"50px",
                 }}>
             <BoldTinyText text="Domain Names"/>
@@ -23,7 +23,7 @@ export const SideBanner = () => {
             <TinyText text="Transfer Your Domains"/>
             <VeryTinyText text="Domains include free privacy protection forever*"/>
             </div>
-            <BannerContent/>
+           
         </div>
     )
 }

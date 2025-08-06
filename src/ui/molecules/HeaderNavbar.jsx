@@ -4,11 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Dropdown from 'react-bootstrap/Dropdown';
 import SplitButton from 'react-bootstrap/SplitButton';
-import { SearchBox } from '../atoms/SearchBox';
-import {Row,Col} from 'react-bootstrap';
-import { SmallDetailValues } from '../atoms/SmallDetailValues';
-import { SmallBadges } from './SmallBadges';
-import { SearchButton } from '../atoms/SearchButton';
+
 
 export const HeaderNavbar = () => {
 
@@ -61,16 +57,6 @@ export const HeaderNavbar = () => {
       </Container>
     </Navbar>
 
-    <Container>
-    <Row>
-      <Col sm={8}>
-      <SearchButton/>
-      </Col>
-      <Col sm={4}>
-      <SmallBadges/>
-      </Col>
-    </Row>
-    </Container>
-        </div>
+   </div>
     )
 }
