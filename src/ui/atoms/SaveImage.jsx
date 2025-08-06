@@ -1,8 +1,8 @@
 import bodyImg2 from '../../assets/body_img2.jpg';
 export const SaveImage=()=>{
     const style={
-    width: "426px",
-    height:"433px",
+    width: "423px",
+    height: "504px",
     borderRadius:"27px",
     }
     return(

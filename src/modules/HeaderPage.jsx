@@ -18,9 +18,7 @@ export const HeaderPage = () => {
                     <Col sm={4}>
                         <SmallBadges/>
                     </Col>
-
                 </Row>
-
                 <Row>
                     <Col sm={8}>
                         <ImageBanner/>

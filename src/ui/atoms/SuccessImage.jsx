@@ -1,8 +1,8 @@
 import bodyImg3 from '../../assets/body_img3.jpg';
 export const SuccessImage=()=>{
     const style={
-    width: "426px",
-    height:"433px",
+    width: "423px",
+    height: "504px",
     borderRadius:"27px",
     }
     return(
