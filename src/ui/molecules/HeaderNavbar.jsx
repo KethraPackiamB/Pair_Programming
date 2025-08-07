@@ -11,7 +11,7 @@ export const HeaderNavbar = () => {
         <div>
             <Navbar expand="lg" className="bg-body-tertiary fixed-top">
       <Container>
-        <Navbar.Brand href="#"><h2>Go Daddy</h2></Navbar.Brand>
+        <Navbar.Brand href="#"><h2>GoDaddy</h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
