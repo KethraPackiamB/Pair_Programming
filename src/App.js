@@ -17,6 +17,8 @@ import { SignUpBlackTheme } from './ui/atoms/SignUpBlackTheme';
 
 import { SectionPage } from './modules/SectionPage';
 import { GoDaddy } from './pages/GoDaddy';
+import { SectionImages } from './ui/molecules/SectionImages';
+import { SectionContent } from './modules/SubSectionPage';
 
 
 
@@ -37,13 +39,13 @@ function App() {
       {/* <ImageBanner/> */}
       {/* <InformationTable/> */}
       {/* <SignUpBlackTheme/> */}
-
+      <SectionContent/>
 
 
 
       {/* <HeaderPage/> */}
       {/* <ImageBanner/> */}
-      <GoDaddy/>
+      {/* <GoDaddy/> */}
       
 
 
