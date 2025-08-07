@@ -5,7 +5,6 @@ export const FooterText = ({textone,texttwo,textthree,textfour}) => {
             <p style={{
                 fontSize:"17px",
                 fontWeight:"bold",
-                // marginTop: "20px"
             }}>{textone}</p>
             <p style={{
                 fontSize:"17px",

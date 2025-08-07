@@ -1,4 +1,3 @@
-import { SmallDetailValues } from "../atoms/SmallDetailValues"
 import { VeryTinyText } from "../atoms/VeryTinyText"
 
 export const PrivacyPolicy = () => {

@@ -10,7 +10,7 @@ export const DropUpButton = () => {
              {['up'].map(
         (direction) => (
           <DropdownButton
-            // as={ButtonGroup}
+           
             key={direction}
             id={`dropdown-button-drop-${direction}`}
             drop={direction}

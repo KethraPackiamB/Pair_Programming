@@ -5,7 +5,7 @@ import { SectionPlantImage } from "../atoms/SectionPlantImage"
 
 export const SectionImages=()=>{
   return(
-    <div className="d-flex justify-content-around align-items-center" style={{width:"120%"}}>
+    <div className="container d-flex gap-3 " style={{width:"100%"}}>
         <SectionPlantImage/>
         <SectionLabImage/>
         <SectionCraftImage/>
@@ -13,3 +13,4 @@ export const SectionImages=()=>{
     </div>
   )
 }
+

@@ -1,5 +1,7 @@
-import { HeaderPage } from "../modules/HeaderPage"
-import { SectionPage } from "../modules/SectionPage"
+import { HeaderPage } from "../modules/HeaderPage";
+import { SectionPage } from "../modules/SectionPage";
+import { SubSectionPage } from "../modules/SubSectionPage";
+import { FooterPage } from "../modules/FooterPage";
 
 export const GoDaddy = () => {
 
@@ -7,6 +9,8 @@ export const GoDaddy = () => {
         <div>
             <HeaderPage/>
             <SectionPage/>
+            <SubSectionPage/>
+            <FooterPage/>
         </div>
     )
 }

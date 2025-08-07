@@ -1,26 +1,23 @@
 import { BlackButton } from "../ui/atoms/BlackButton"
 import { HeadingTwo } from "../ui/atoms/HeadingTwo";
-import { SectionIcon } from "../ui/atoms/SectionIcon";
 import { TinyText } from "../ui/atoms/TinyText"
 import { SectionImages}  from "../ui/molecules/SectionImages"
-import {Row,Col} from 'react-bootstrap';
 
-export const SectionContent=()=>{
+
+export const SubSectionPage=()=>{
     return(
-        <div className="container">
-           <div className="text-center">
+        <div style={{background:"#dededeff",paddingBottom:"20px"}} >
+           <div className="text-center py-4">
            <HeadingTwo text="Templates designed to sell"/>
-           <TinyText text="choose from 100s of designs for every idea and industry"/>
+           <TinyText text="Choose from 100s of designs for every idea and industry"/>
            </div>
            <SectionImages/>
-           <Row>
-            <Col sm={6} className="text-center">
-               <BlackButton label="Brwose All Templates" />
-            </Col>
-            <Col sm={6}>
-               <SectionIcon/>
-            </Col>
-            </Row>
-        </div>
+           
+            <div className="d-flex justify-content-center py-5">
+               <BlackButton label="Browse All Templates" />
+            </div>
+            </div>
     )
 }
+
+         

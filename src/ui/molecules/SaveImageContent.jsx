@@ -2,7 +2,6 @@ import { BlackButton } from "../atoms/BlackButton";
 import { BoldTinyText } from "../atoms/BoldTinyText";
 import { HeadingTwo } from "../atoms/HeadingTwo";
 import { TinyText } from "../atoms/TinyText";
-import { TransparentButton } from "../atoms/TransparentButton";
 import { SaveImage } from "../atoms/SaveImage";
 
 export const SaveImageContent=()=>{

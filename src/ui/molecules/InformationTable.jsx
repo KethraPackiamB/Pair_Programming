@@ -1,8 +1,7 @@
 import Table from 'react-bootstrap/Table';
 import { TinyText } from '../atoms/TinyText';
 import { HeadingTwo } from '../atoms/HeadingTwo';
-import { SmallDetailValues } from '../atoms/SmallDetailValues';
-import { BoldTinyText } from '../atoms/BoldTinyText';
+
 
 export const InformationTable = () => {
 

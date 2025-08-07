@@ -1,5 +1,5 @@
-import { BoldTinyText } from "../atoms/BoldTinyText"
-import { VeryTinyText } from "../atoms/VeryTinyText"
+import { BoldTinyText } from "../atoms/BoldTinyText";
+import { VeryTinyText } from "../atoms/VeryTinyText";
 
 export const AboutGoDaddy = () => {
 

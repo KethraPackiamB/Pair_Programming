@@ -6,7 +6,7 @@ export const FooterTop = () => {
 
     return(
         <div>
-            <Container className="py-3" >
+            <Container className="py-4" >
                 <Row>
                     <Col sm={8}>
                      <FooterText textone="Sign up for news and special offers"/>

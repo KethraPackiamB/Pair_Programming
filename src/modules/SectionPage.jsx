@@ -1,4 +1,3 @@
-import { SellImage } from "../ui/atoms/SellImage"
 import { SaveImageContent } from "../ui/molecules/SaveImageContent";
 import { SellImageContent } from "../ui/molecules/sellImageContent"
 import { Container,Row,Col} from "react-bootstrap";
@@ -30,7 +29,3 @@ export const SectionPage=()=>{
         </div>
     );
 };
-
-// paddingLeft: "290px"
-
-// style={{paddingLeft:"100px"}}
