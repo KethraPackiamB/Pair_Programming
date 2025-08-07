@@ -4,7 +4,7 @@ import { VeryTinyText } from "../atoms/VeryTinyText"
 export const HelpCenter = () => {
 
     return(
-        <div className="px-5">
+        <div className="px-4">
             <BoldTinyText text="Help Center"/>
             <VeryTinyText text="Help Center"/>
             <VeryTinyText text="Community"/>
