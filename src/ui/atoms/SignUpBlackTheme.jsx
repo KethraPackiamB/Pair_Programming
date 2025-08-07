@@ -6,7 +6,7 @@ export const SignUpBlackTheme = () => {
 
     return(
         <div>
-             <InputGroup className="container my-2" size="lg" >
+             <InputGroup  size="lg" >
         <Form.Control 
           placeholder="Email Address"
           aria-label="Recipient's username"

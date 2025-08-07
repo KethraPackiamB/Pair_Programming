@@ -17,6 +17,11 @@ import { SignUpBlackTheme } from './ui/atoms/SignUpBlackTheme';
 
 import { SectionPage } from './modules/SectionPage';
 import { GoDaddy } from './pages/GoDaddy';
+import { FooterTop } from './ui/molecules/FooterTop';
+import { AboutGoDaddy } from './ui/molecules/AboutGoDaddy';
+import { FooterSection } from './ui/organisms/FooterSection';
+import { FooterPage } from './modules/FooterPage';
+import { Icons } from './ui/molecules/Icons';
 
 
 
@@ -43,7 +48,12 @@ function App() {
 
       {/* <HeaderPage/> */}
       {/* <ImageBanner/> */}
-      <GoDaddy/>
+      {/* <GoDaddy/> */}
+      {/* <FooterTop/> */}
+      {/* <AboutGoDaddy/> */}
+      {/* <FooterSection/> */}
+      {/* <Icons/> */}
+      <FooterPage/>
       
 
 
